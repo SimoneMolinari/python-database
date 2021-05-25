@@ -16,7 +16,7 @@ import sys
 try:
 	conn = mariadb.connect(
 		user="root",
-		password="fagiolini!primavera",
+		password="",
 		host="192.168.1.100",
 		port=3306,
 		database="progetto_esame"
