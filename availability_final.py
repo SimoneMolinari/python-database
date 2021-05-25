@@ -106,8 +106,8 @@ def checkAvailability(asin):
 
 # script per inviare l'email al destinatario [devo aggiungere il controllo per il cambio di stato, ma dopo integrazione con DBMS]
 def sendemail(availability, product, receiver):
-	GMAIL_USERNAME = "noreplyakeepa@gmail.com"
-	GMAIL_PASSWORD = "ilnoreplyakeepa@"
+	GMAIL_USERNAME = ""
+	GMAIL_PASSWORD = ""
 
 	recipient = receiver
 	if(validate_email(recipient, verify=True)):
